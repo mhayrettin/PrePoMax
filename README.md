@@ -1,4 +1,4 @@
-# Extract Results from PrePoMax/CalculiX
+# `getResultsFromFRD.py` : Extract Results from PrePoMax/CalculiX
 
 ## What this code does?
 This script helps you to extract and export nodal results from PrePoMax or CalculiX.
