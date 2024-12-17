@@ -1,7 +1,7 @@
 # Extract Results from PrePoMax/CalculiX
 
 ## What this code does?
-This script allows you to extract and export nodal results from PrePoMax or CalculiX.
+This script helps you to extract and export nodal results from PrePoMax or CalculiX.
 
 ## Usage Instructions is Not Needed Actually But..
 1. **Generate Result File**  
