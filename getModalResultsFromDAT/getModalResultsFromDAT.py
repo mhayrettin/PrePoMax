@@ -1,5 +1,7 @@
 import pandas as pd
 
+file_path = r"C:\\Users\\Analysis-1.dat"
+
 def parse_eigenvalue_data_from_file(file_path):
     """
     Parses the 'E I G E N V A L U E   O U T P U T' section from a file
@@ -254,8 +256,6 @@ def export_csv(df_results):
     except Exception as e:
         print(f"\nExport failed: {e}\n")
 
-
-file_path = r"C:\\Users\\Analysis-1.dat"
 
 eigenvalue_df = parse_eigenvalue_data_from_file(file_path)
 participation_factors_df = parse_participation_factors_from_file(file_path)
