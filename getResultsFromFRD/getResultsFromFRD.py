@@ -266,7 +266,7 @@ def export_csv(df_results):
     - df_results: DataFrame to export.
     """
 
-    output_csv_path = frd_file_path.replace(".frd", ".csv")
+    output_csv_path = frd_file_path.replace(".frd", "_nodalResults.csv")
 
     try:
         df_results.to_csv(output_csv_path, index=False)
