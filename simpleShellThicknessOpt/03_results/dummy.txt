@@ -1,0 +1,1 @@
+# Place a `03_results` folder so that scripts can place the result files and resulting `plot.png` file in it.
