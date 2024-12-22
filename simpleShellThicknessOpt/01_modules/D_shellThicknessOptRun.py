@@ -23,7 +23,7 @@ thicknessHistory = []
 increment_step = .5  # Define how much to increment each thickness value
 maxIterations = 100  # Number of iterations
 deformationLimit = 2  # Deformation limit in mm
-maxDef = 3   # just for initialization of while loop > deformationLimit
+maxDef = deformationLimit + 1   # just for initialization of while loop > deformationLimit
 
 #INP Generator Initialization
 inpGeneratorClass = INPFileGenerator(base_file_path, resultsDirectory, ccx_executable, number_of_cores)
